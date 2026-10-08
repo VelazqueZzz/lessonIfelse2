@@ -3,9 +3,8 @@
 const val AGE_OF_MAJORITY = 18
 
 fun main() {
-println("Введите дату рождения:")
-val age = readln().toInt()
-val year = 2026 - age
-    //расчёты
-if (year >= AGE_OF_MAJORITY) println("“Показать экран со скрытым контентом”")
+println("Введите год рождения:")
+val yearBorn = readln().toInt()
+val year = 2026 - yearBorn
+if (year >= AGE_OF_MAJORITY) println("Показать экран со скрытым контентом")
 }
